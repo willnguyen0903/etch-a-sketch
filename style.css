@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  height: 256px;
+  width: 256px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+}
+
+#grids {
+  width: 16px;
+  height: 16px;
+  background-color: lightblue;
+  border: 0px solid #ddd;
+}
+
