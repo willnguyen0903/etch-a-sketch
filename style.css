@@ -1,20 +1,26 @@
 body {
   background-color:rgb(224, 139, 59);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
+
 .container {
-  background-color: lightblue;
-  height: 500px;
-  width: 500px; 
+  display: flex;
+}
+.gridContainer {
+  background-color: white;
+  height: 700px;
+  width: 700px; 
   display: flex;
   flex-wrap: wrap;
   gap: 0px;
 }
-
+.toolsContainer {
+  margin: 25px;
+}
 #grids {
   box-sizing: border-box;
   background-color: white;
-  border: 0px none #ddd;
+  border: 0px none;
 }
-
