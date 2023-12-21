@@ -24,3 +24,8 @@ body {
   background-color: white;
   border: 0px none;
 }
+
+.toggle-on {
+  background-color: #4e524e; 
+  color: white;
+}
