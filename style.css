@@ -3,6 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Press Start 2P';
 }
 
 .container {
@@ -28,4 +29,19 @@ body {
 .toggle-on {
   background-color: #4e524e; 
   color: white;
+}
+
+footer {
+  font-family: 'Press Start 2P';
+  font-size: 12px;
+}
+
+#logo {
+  transition: transform 0.8s ease-in-out;
+  width: 35px; 
+  height: 35px
+}
+
+#logo:hover {
+  transform: rotate(360deg);
 }
